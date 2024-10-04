@@ -11,7 +11,7 @@ describe('template spec', () => {
   before( () => {
     cy.fixture("DataProvider.json").then( (data) =>{
       userdata = data;
-      cy.visit('/');gfg
+      cy.visit('/');
     })
   })
 
