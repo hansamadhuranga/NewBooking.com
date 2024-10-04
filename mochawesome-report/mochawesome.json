@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-10-04T10:03:52.481Z",
+    "end": "2024-10-04T10:04:44.876Z",
+    "duration": 52395,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ea3f6a83-5a97-4eb8-bafb-97b43aa400a2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\booking.cy.js",
+      "file": "cypress\\e2e\\booking.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f803a7b8-a6f6-44ca-8119-cae50b49736c",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TestSuite",
+              "fullTitle": "template spec TestSuite",
+              "timedOut": null,
+              "duration": 51995,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\booking.cy.js\\\\template spec -- TestSuite (failed).png\"\n    ]\n  ]\n}",
+              "code": "HOME_TEST.closePopUp();\nHOME_TEST.selectLanguageAndCurrecy();\nHOME_TEST.searchBookingOptions(userdata.location);\nSEARCH_RESULTS_TEST.getSecondListedItem();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 20000ms: expected '<h1.f6431b446c.d5f78961c3>' to contain text 'Kandy', but the text was 'Colombo: 226 properties found'",
+                "estack": "AssertionError: Timed out retrying after 20000ms: expected '<h1.f6431b446c.d5f78961c3>' to contain text 'Kandy', but the text was 'Colombo: 226 properties found'\n    at HomePage.verifySearchLocationIsCorrect (webpack:///./cypress/pageLayer/homePage.js:74:45)\n    at Hometest.searchBookingOptions (webpack:///./cypress/testlayer/HomeTest.js:27:22)\n    at Context.eval (webpack:///./cypress/e2e/booking.cy.js:21:14)",
+                "diff": "- 'Colombo: 226 properties found'\n+ 'Kandy'\n"
+              },
+              "uuid": "7d999714-a5f2-4c71-9777-c4f95efedb60",
+              "parentUUID": "f803a7b8-a6f6-44ca-8119-cae50b49736c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "7d999714-a5f2-4c71-9777-c4f95efedb60"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 51995,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
