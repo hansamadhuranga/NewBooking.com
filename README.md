@@ -17,6 +17,7 @@
 ## Challenges
 
 - It was a bit of a difficult task to locate some elements, and most of the time some elements don't get captured from the test and it fails.
+- Handling dynamic elements on the page.
 
 
 
