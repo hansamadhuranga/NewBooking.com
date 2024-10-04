@@ -17,5 +17,7 @@ A framework has been created with proper folder structures, as with: fixtures to
 Custom added
 
 Enabled multi browser testing
+
 Enabled mochawesome reporter
+
 Gave the retry count to two since most of the time applications fail with loads of API calls or application errors.
