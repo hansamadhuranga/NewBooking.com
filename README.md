@@ -1,12 +1,12 @@
 ## Get started 
 
-- Clone the project first (https://github.com/hansamadhuranga/NewBooking.com.git)
+- Clone the project first. (https://github.com/hansamadhuranga/NewBooking.com.git)
 
 - Open the project in an IDE like VS Code.
 
 - Open the terminal and execute (npx cypress open)
 
-- Then execute the file called "amazonAddToCart.cy.js" in the specs.
+- Then execute the file called "booking.cy.js" in the e2e.
 
 
 ## Prerequisites
@@ -18,21 +18,23 @@
 
 - It was a bit of a difficult task to locate some elements, and most of the time some elements don't get captured from the test and it fails.
 - Handling dynamic elements on the page.
+- Network slowness.
+- Time to time popups in the website.
 
 
 
 
 ## Framework
 
-- A framework has been created with proper folder structures, as with: fixtures to maintain test data helpers to maintain functions and commands page objects to storing web elements testbase to maintain Cypress commands
+- A framework has been created with proper folder structures, as with: fixtures to maintain test data helpers to maintain functions and commands page objects to storing web elements testbase to maintain Cypress commands.
 
 
 
 
 ## Custom added
 
-- Enabled multi browser testing
+- Enabled multi browser testing.
 
-- Enabled mochawesome reporter
+- Enabled mochawesome reporter.
 
 - Gave the retry count to two since most of the time applications fail with loads of API calls or application errors.
